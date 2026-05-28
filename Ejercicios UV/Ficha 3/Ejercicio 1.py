@@ -1,0 +1,17 @@
+"""
+Desarrollar un programa que cargue por teclado la cantidad de dinero depositada en plazo fijo por un cliente de un banco
+y calcular el saldo que tendrá esa cuenta al vencer el plazo fijo, sabiendo que el interés pactado era de 2.3%
+y que el banco cobra una tasa fija de gastos por servicios financieros igual $20 por cuenta."""
+
+capital = int(input("Ingrese el capital del plazo fijo : "))
+
+gastosfinancieros = 20
+
+
+
+interes = (capital*2.3)/ 100
+
+total = capital + interes - gastosfinancieros
+
+
+print("Saldo que tendra la cuenta al vencer plazo fijo :" ,total)
